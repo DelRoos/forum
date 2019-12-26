@@ -9,8 +9,12 @@
 		if ($nbre != 1) {
 			header("location:index.php?action=connexion&erreur=".$error);
 		}else{
+            $_SESSION['auth'] = array(
+                'login' => $pseudo,
+                'pass' => $mdp
+            );
 			connectUser($pseudo, $mdp);
-			header("location:index.php?action=message");
+			header("location:index.php?action=profil");
 		}
 	}
 

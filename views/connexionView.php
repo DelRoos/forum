@@ -19,7 +19,7 @@
 		<div class="alert alert-danger alert-dismissable col-lg-3" id="erreur">
 			<?= $_GET['erreur']; ?>
 		</div>
-		<?php } ?>
+            <?php } ?><br/>
 
 		<form method="post" action="index.php?action=connect" >
 

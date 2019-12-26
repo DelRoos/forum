@@ -37,7 +37,7 @@
 					<span class="input-group-addon">
 						<i class="glyphicon glyphicon-lock"></i>
 					</span>
-					<input type="password" name="mdp" class="form-control" placeholder="Votre mot de passe" required="required">
+					<input type="password" name="mdp" class="form-control" placeholder="Votre mot de passe" required="required" pattern="[0-9a-z]{8,}">
 				</div>
 			</div>
 			
@@ -46,7 +46,7 @@
 					<span class="input-group-addon">
 						<i class="glyphicon glyphicon-envelope"></i>
 					</span>
-					<input type="email" name="email" class="form-control" placeholder="email ex:delano@gmail.com" required="required">
+					<input type="email" name="email" class="form-control" placeholder="email ex:delano@gmail.com" required="required" pattern="[gmail]{1}[.com]{1}$">
 				</div>
 			</div>
 

@@ -19,5 +19,7 @@
 					"email"=>$email,
 					"mdp"=>$mdp
 				));
+		$nbr=$req->rowCount();
+		return $nbr;
 	}
 ?>
