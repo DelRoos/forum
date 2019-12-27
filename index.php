@@ -31,7 +31,8 @@
 
         //deconnexion
         if($_GET['action']=='deconnexion'){
-            deconnectUser();
+        	extract($_SESSION['auth']);
+            deconnectUser($login, $pass);
         }
 	}else{
 		pageAcceuil();
