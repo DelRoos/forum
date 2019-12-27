@@ -2,6 +2,7 @@
     session_start();
 	require 'controllers/controllerInscription.php';
 	require 'controllers/controllerConnexion.php';
+	require 'controllers/controllerDeconnect.php';
 	require 'controllers/controllerAcceuil.php';
 	require 'bdconnexion.php';
 	require 'controllers/controllerProfil.php';
@@ -26,6 +27,11 @@
         if($_GET['action']=='profil'){
             islogged();
             profil();
+        }
+
+        //deconnexion
+        if($_GET['action']=='deconnexion'){
+            deconnectUser();
         }
 	}else{
 		pageAcceuil();
