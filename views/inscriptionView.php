@@ -46,7 +46,7 @@
 					<span class="input-group-addon">
 						<i class="glyphicon glyphicon-envelope"></i>
 					</span>
-					<input type="email" name="email" class="form-control" placeholder="email ex:delano@gmail.com" required="required" pattern="[gmail]{1}[.com]{1}$">
+					<input type="email" name="email" class="form-control" placeholder="email ex:delano@gmail.com" required="required">
 				</div>
 			</div>
 

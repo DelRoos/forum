@@ -1,7 +1,4 @@
-body
-{
-	background: black;
-}
+
 
 .background
 {
@@ -66,5 +63,33 @@ body
 
 #button
 {
+	font-family: cursive;
 	width: 200px;
+}
+.panel-heading
+{
+	font-family: cursive;
+	font-weight: bold;
+}
+#photoprofile
+{
+	display: flex;
+}
+#navigation
+{
+	font-family: cursive;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 150px;
+}
+#deconnect
+{
+	font-family: cursive;
+	font-size: 20px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#login
+{
+	font-family: cursive;
 }

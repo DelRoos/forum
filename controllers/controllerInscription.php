@@ -19,8 +19,6 @@
 			$error = "Veillez remplir tous les champs";
 		}else if(!preg_match($pass, $mdp)){
             $error = "mot de passe incorrect";
-        }else if(!preg_match($verif1, $email) || !preg_match($verif2, $email) || !preg_match($verif3, $email)){
-		    $error= "addresse emial incorect";
         }elseif (foundUser($pseudo, $email, $mdp)!=0) {
             $error = "identifiant deja utilise";
         }
