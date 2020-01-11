@@ -8,8 +8,7 @@
 					"pseudo"=>$pseudo,
 					"mdp"=>$mdp
 				));
-		$res = $req->rowcount();
-		return $res;
+		return $req;
 	}
 
 	function connectUser($pseudo, $mdp)

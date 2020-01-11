@@ -19,8 +19,10 @@
 			$error = "Veillez remplir tous les champs";
 		}else if(!preg_match($pass, $mdp)){
             $error = "mot de passe incorrect";
+        }else if(!preg_match($verif1, $email)){
+		    $error= "addresse emial non valide";
         }elseif (foundUser($pseudo, $email, $mdp)!=0) {
-            $error = "identifiant deja utilise";
+            $error = "identifiant déjà utilisés";
         }
 
 		return $error;
@@ -33,11 +35,14 @@
 		if ($errors != "aucune erreur") {
 			header("location:index.php?action=inscription&erreur=".$errors);
 		}else{
+			insertInscription($pseudo, $email, $mdp);
+            $req = selectUser($pseudo, $mdp);
+            $res = $req->fetch();
             $_SESSION['auth'] = array(
                 'login' => $pseudo,
-                'pass' => $mdp
+                'pass' => $mdp,
+                'id' => $res['id']
             );
-			insertInscription($pseudo, $email, $mdp);
             header("location:index.php?action=profil");
 		}
 	}

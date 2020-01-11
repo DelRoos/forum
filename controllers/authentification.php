@@ -1,6 +1,5 @@
 <?php
     require 'models/modelAuth.php';
-
     function islogged()
     {
         if(isset($_SESSION['auth']) && isset($_SESSION['auth']['login']) && isset($_SESSION['auth']['pass'])){

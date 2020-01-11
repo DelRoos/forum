@@ -1,4 +1,13 @@
 <?php
+    function selectUser($pseudo, $mdp)
+    {
+        $req = dbconnect()->prepare("SELECT id FROM compte WHERE pseudo=:pseudo AND mdp=:mdp");
+        $req->execute(array(
+            "pseudo"=>$pseudo,
+            "mdp"=>$mdp
+        ));
+        return $req;
+    }
 
 	function insertInscription($pseudo, $email, $mdp)
 	{

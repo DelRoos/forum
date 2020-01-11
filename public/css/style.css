@@ -29,7 +29,6 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-
 .formulaire
 {
 	display: flex;
@@ -96,4 +95,34 @@
 #cote
 {
 	padding: 0px 0px 0px 0px;
+}
+#idprofil
+{
+	margin: 10px 10px 10px 10px;
+}
+#pageDeProfil
+{
+	text-decoration: none;
+}
+
+#listFreind{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#myfreind{
+	padding-top: 5px;
+}
+
+#freind{
+	margin: 0px 0px 0px 0px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	background-color: none;
+}
+
+#freind :hover {
+	background-color : #cfcfcf;
 }

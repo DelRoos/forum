@@ -6,7 +6,7 @@
 					"pseudo"=>$pseudo,
 					"mdp"=>$mdp
 				));	
-
+		$_SESSION=array();
 		session_destroy();
 		header("location:index.php?action=connexion");
 	}

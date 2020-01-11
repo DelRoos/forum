@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d866504f-73cf-4e43-800f-9e64c1426432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/controllerInscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controllerInscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inscriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/inscriptionView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/profilView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/profilView.php" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="d866504f-73cf-4e43-800f-9e64c1426432" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +16,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VMdZ5A87ZIDn5fe7xs9LkONP5X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +23,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -42,15 +32,24 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/templateLogin" />
+      <recent name="$PROJECT_DIR$/public/user/pro" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/templateLogin" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -66,29 +65,57 @@
       <updated>1577066949318</updated>
       <workItem from="1577066951005" duration="445000" />
       <workItem from="1577324856142" duration="768000" />
-      <workItem from="1577361991212" duration="7389000" />
-      <workItem from="1577427660081" duration="69000" />
+      <workItem from="1577361991212" duration="34921000" />
+      <workItem from="1577444206200" duration="11593000" />
+      <workItem from="1577537738225" duration="18479000" />
+      <workItem from="1577581737824" duration="25721000" />
+      <workItem from="1577660684744" duration="20822000" />
+      <workItem from="1578030051258" duration="3362000" />
+      <workItem from="1578073512689" duration="2401000" />
+      <workItem from="1578195539855" duration="4578000" />
+      <workItem from="1578512394786" duration="3423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="319" width="399" height="157" key="NewPhpFileDialog" timestamp="1577367688499">
+    <state x="361" y="189" width="641" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577533974403">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="319" width="399" height="157" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1577367688499" />
+    <state x="361" y="189" width="641" height="416" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1577533974403" />
+    <state x="416" y="146" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577670587650">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="146" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1577670587650" />
+    <state x="466" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578195737033">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="155" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1578195737033" />
+    <state x="478" y="319" width="399" height="157" key="NewPhpFileDialog" timestamp="1577679111659">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="478" y="319" width="399" height="157" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1577679111659" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1577550996558">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1577550996558" />
+    <state x="337" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578195543131">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="337" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1578195543131" />
+    <state x="347" y="176" key="run.anything.popup" timestamp="1577672188202">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="176" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1577672188202" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577544804169">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1577544804169" />
+    <state x="408" y="304" width="540" height="186" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577412384118">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="408" y="304" width="540" height="186" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1366.741@0.27.1366.741" timestamp="1577412384118" />
   </component>
 </project>
